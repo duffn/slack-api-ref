@@ -1,9 +1,9 @@
-name: validate
+name: update
 
 on: [push, pull_request]
 
 jobs:
-  validate:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
